@@ -9,7 +9,12 @@ So far, the variability metrics avalible are (The log base is 2):
 * log kurtosis (Fisher's)
 * log entropy
 * percent of the population that is expressing the gene
-## Prerequisites
+## Installation
+The python dependencies are managed via conda and can be installed using the provided quantify_variability.yaml file:
+```
+conda env create -f quantify_variability.yaml
+conda activate quantify_variability
+```
 
 ## Usage
 Notebook with example usage is included.
